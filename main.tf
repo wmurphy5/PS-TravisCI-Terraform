@@ -25,7 +25,7 @@ module "bootstrap" {
   ado_iam_role_name           = "IamRole"
   aws_iam_policy_permits_name = "IamPolicyPermits"
   aws_iam_policy_assume_name  = "IamPolicyAssume"
-
+}
 
 /*
 locals {
