@@ -10,6 +10,7 @@ language: shell  # aka, bash on Linux
 branches:
   only:
     - master
+    - main
 
 # Export global variables into shell
 env:
