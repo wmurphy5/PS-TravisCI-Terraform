@@ -15,7 +15,8 @@ branches:
 env:
   global:
     # Setting the version of terraform - https://github.com/hashicorp/terraform/releases
-    - tf_version=0.12.19
+    #- tf_version=0.12.19
+    - tf_version=1.6.3
 
     # Setting terraform init CLI options - https://www.terraform.io/docs/commands/init.html
     - tf_init_cli_options=" -input=false"
