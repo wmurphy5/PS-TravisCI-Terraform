@@ -60,7 +60,8 @@ jobs:
     - stage: terraform apply
 
       # Terraform Apply: Only when pushing direct to master, or when PR merge into master
-      if: type IN (push) and branch = master
+      #if: type IN (push) and branch = master
+      if: type IN (push) and branch = main
 
       install:
         # Download and install terraform before each run
